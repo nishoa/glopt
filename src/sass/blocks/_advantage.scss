@@ -1,0 +1,32 @@
+.advantage {
+    background-color: #f3f3f3;
+    padding: 57px 0 51px 0;
+    &__item {
+        display: flex;
+        margin-top: 35px;
+    }
+    &__img {
+        min-width: 62px;
+        margin-right: 13px;
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    &__text {
+        max-width: 450px;
+    }
+    &__title {
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__descr {
+        margin-top: 10px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: left;
+    }
+}
