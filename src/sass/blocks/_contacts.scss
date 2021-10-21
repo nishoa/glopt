@@ -1,0 +1,36 @@
+.contacts {
+    display: flex;
+    &_wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-right: 19px;
+    }
+    &_text {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: right;
+    }
+    &_phone {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: right;
+        text-decoration: none;
+        &:hover {
+            color: #ec644b;
+            border-bottom: 1px solid $main-color;
+        }
+    }
+    &_btn {
+        width: 160px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22.04px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
