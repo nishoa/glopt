@@ -5,4 +5,13 @@
     line-height: 23px;
     text-align: center;
     text-transform: uppercase;
+    padding: 0 10vw;
+    &_fz21 {
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        padding: 0 10vw;
+    }
 }

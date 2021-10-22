@@ -14,8 +14,11 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
-@import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/title';
+@import 'blocks/devider';
+
+@import 'blocks/header';
 @import 'blocks/contacts';
 @import 'blocks/advantage';
+@import 'blocks/promo';
