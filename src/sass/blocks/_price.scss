@@ -1,0 +1,122 @@
+.price {
+    padding: 53px 0 58px 0;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-top: 34px;
+        padding-bottom: 24px;
+        border: 1px solid #e9e9e9;
+        width: 23%;
+        min-height: 355px;
+    }
+    &__header {
+        height: 61px;
+        background-color: #25333c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h5 {
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 23px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+    &__img {
+        margin-top: 10px;
+        min-height: 58px;
+        img {
+            max-width: 20%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__text {     
+        padding: 0 1.5vw;
+        margin-top: 7px;
+        text-align: center;
+    }
+    &__time {
+        color: #2e2e2e;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &__cost {
+        color: $main-color;
+        font-size: 28px;
+        line-height: 30px;
+    }
+    &__descr {
+        margin-top: 19px;
+        color: #2e2e2e;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
+    }
+    &__btn {
+        margin: 25px auto 0 auto;
+        width: 160px;
+        height: 45px;
+    }
+    &__consultation {
+        position: relative;
+    }
+    &__title {
+        margin-top: 56px;
+        color: #3a3a3a;
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: center;
+    }
+    &__icon {
+        border: 1px solid #e93b3b;
+        border-radius: 100%;
+        width: 102px;
+        height: 102px;
+        display: flex;
+        margin: 20px auto 0 auto;
+        align-items: center;
+        justify-content: center;
+        img {
+            max-width: 59%;
+        }
+    }
+    &__form {
+        margin-top: 17px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 268px);
+        grid-template-rows: repeat(2, 45px);
+        grid-auto-columns: 268px;
+        grid-auto-rows: 45px;
+        gap: 30px 6px;
+
+    }
+    &__col {
+        padding-left: 28px;
+        border-radius: 20px;
+        height: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        opacity: 0.7;
+        color: #101010;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left
+    }
+    &__submit {
+        width: 180px;
+        // width: 70%; else
+        grid-column: 2/3;
+        justify-self: center;
+    }
+}
