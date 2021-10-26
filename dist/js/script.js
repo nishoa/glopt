@@ -3,7 +3,7 @@ $('.reviews__slider').slick({
     centerPadding: '0',
     slidesToShow: 3,
     infinite: true,
-    prevArrow: '<button type="button" class="slick-prev"><img src="icons/arrow_left.png"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="icons/arrow_right.png"></button>',
+    prevArrow: '<button type="button" class="slick-prev"><img src="icons/arrow_left.svg"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="icons/arrow_right.svg"></button>',
     variableWidth: true
   });

@@ -36,6 +36,7 @@
     background: none;
     left: 43%;
     top: 65px;
+    z-index: 10;
 }
 .slick-next {
     position: absolute;
@@ -43,6 +44,7 @@
     background: none;
     right: 43%;
     top: 65px;
+    z-index: 10;
 }
 
 .slick-slide {
