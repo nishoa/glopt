@@ -9,9 +9,9 @@
     </head>
     <body>
         <header class="header">
-            <div class="container">
-                <div class="header__menu">
-                    <img src="img/logo.png" alt="logo" class="header__logo" />
+            <div class="header__menu">
+                <img src="img/logo.svg" alt="logo" class="header__logo" />
+                <nav class="header__list">
                     <ul class="header__links">
                         <li class="header__link"><a href="#">Преимущества</a></li>
                         <li class="header__link"><a href="#">Наша работа</a></li>
@@ -25,9 +25,20 @@
                             <span class="contacts_text">Есть вопросы?</span>
                             <a href="#" class="contacts_phone">+7 (926) 423 01 00</a>
                         </div>
-                        <button class="btn contacts_btn">Перезвоните мне</button>
                     </div>
+                </nav>
+                <div class="contacts header__contacts">
+                    <div class="contacts_wrapper">
+                        <span class="contacts_text">Есть вопросы?</span>
+                        <a href="#" class="contacts_phone">+7 (926) 423 01 00</a>
+                    </div>
+                    <button class="btn contacts_btn">Перезвоните мне</button>
                 </div>
+                <div class="header__hamburger">
+                    <span></span>
+                </div>
+            </div>
+            <div class="container">
                 <div class="header__content">
                     <h1>Global Opt - логистика полного цикла из Китая в Россию</h1>
                     <h2 class="header__title">ДОСТАВКА ГРУЗОВ ИЗ КИТАЯ</h2>
@@ -75,7 +86,7 @@
             <div class="container">
                 <h3 class="title">Преимущества работы с GlobalOpt</h3>
                 <div class="row">
-                    <div class="col-xxl-6">
+                    <div class="col-lg-6 col-md-12">
                         <div class="advantage__item">
                             <div class="advantage__img">
                                 <img src="icons/advantage/office.svg" alt="office">
@@ -113,7 +124,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-6">
+                    <div class="col-lg-6 col-md-12">
                         <div class="advantage__item">
                             <div class="advantage__img">
                                 <img src="icons/advantage/declaration.svg" alt="declaration">
@@ -160,7 +171,7 @@
                 <div class="devider"></div>
                 <h4 class="title_fz21">Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза и ваших требований по срокам и бюджету.</h4>
                  <div class="row">
-                     <div class="col-xxl-4">
+                     <div class="col-md-12 col-lg-4">
                         <div class="promo__img">
                             <img src="img/promo/insurance.jpg" alt="insurance">
                         </div>
@@ -171,7 +182,7 @@
                             </p>
                         </div>
                      </div>
-                     <div class="col-xxl-4">
+                     <div class="col-md-12 col-lg-4">
                         <div class="promo__img">
                             <img src="img/promo/ship.jpg" alt="ship">
                         </div>
@@ -182,7 +193,7 @@
                             </p>
                         </div>
                      </div>
-                     <div class="col-xxl-4">
+                     <div class="col-md-12 col-lg-4">
                         <div class="promo__img">
                         <img src="img/promo/man.jpg" alt="man">
                         </div>
@@ -431,7 +442,6 @@
                         <input name="tel" type="tel" placeholder="Ваш номер телефона..." required class="consultation__col">
                         <input name="email" type="email" placeholder="Ваш e-mail..." required class="consultation__col">
                         <textarea name="message" placeholder="Сообщение..." required class="consultation__textarea"></textarea>
-                        <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
                         <button class="btn consultation__submit">Отправить заявку</button>
                     </form>
                 </div>
@@ -455,8 +465,10 @@
                 </div>
                 <div class="footer__devider"></div>
                 <div class="footer__info">
-                    <p class="footer__link">© 2010 <a href="Scratch.com.ua">Scratch.com.ua</a></p>
-                    <a href="/policy.html" class="footer__policy">Политика конфидециальности</a>
+                    <div class="footer__links">
+                        <p class="footer__link">© 2010 <a href="https://scratch.com.ua/">Scratch.com.ua</a></p>
+                        <a href="/policy.html" class="footer__policy">Политика конфидециальности</a>
+                    </div>
                     <div class="footer__about">
                         Создание сайта:
                         <img src="icons/footer_logo.png" alt="footer_logo">

@@ -1,5 +1,5 @@
 .footer {
-    background-color: #25333c;
+    background-color: $bg-color;
     padding: 24px 0 28px 0;
     &__wrapper {
         display: flex;
@@ -23,7 +23,7 @@
         font-weight: 700;
         line-height: 20px;
         text-align: left;
-        margin-right: 280px;
+        margin-right: 220px;
     }
     &__info {
         display: flex;
@@ -34,6 +34,11 @@
     &__contacts {
         margin-top: 18px;
     }
+    &__links {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
     &__link {
         opacity: 0.6;
         color: #ffffff;
@@ -42,7 +47,6 @@
         line-height: 17px;
         text-align: center;
         a {
-            opacity: 0.6;
             color: #ffffff;
             text-decoration: none;
         }
@@ -54,7 +58,6 @@
         line-height: 17px;
         text-align: center;
         text-decoration: underline;
-        margin-right: 20%;
     }
     &__about {
         display: flex;

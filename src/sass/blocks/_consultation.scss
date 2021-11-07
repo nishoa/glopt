@@ -1,6 +1,6 @@
 .consultation {
     padding: 62px 0 79px 0;
-    background: url('../img/bg/fourth_bg.jpg') center center/105% no-repeat;
+    background: url('../img/bg/fourth_bg.jpg') center center/cover no-repeat;
     &__wrapper {
         margin: 0 auto;
         width: 75%;
@@ -11,7 +11,7 @@
         width: 100%;
         // width: 896px;
         height: 68px;
-        background-color: #25333c;
+        background-color: $bg-color;
     }
     &__title{
         padding-top: 20px;
@@ -33,12 +33,16 @@
         // background-color: rgba($color: #fff, $alpha: .7);
     }
     &__col {
-        width: 33%;
+        width: 32.9%;
         height: 45px;
         padding-left: 28px;
         border: 1px solid rgba(0, 0, 0, 0.21);
         border-radius: 20px;
         background-color: #ffffff;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
     }
     &__textarea {
         resize: none;
@@ -50,6 +54,10 @@
         height: 80px;
         border: 1px solid rgba(0, 0, 0, 0.21);
         background-color: #ffffff;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
     }
     &__submit {
         width: 180px;

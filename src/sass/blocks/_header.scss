@@ -4,9 +4,21 @@
     &__menu {
         display: flex;
         justify-content: space-between;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    &__list {
+        height: 100%;
+        .contacts {
+            display: none;
+        }
+    }
+    &__logo {
+        width: 96px;
+        height: 100px;
     }
     &__links {
-        width: 680px;
+        width: 600px;
         height: 23px;
         margin-top: 40px;
         display: flex;
@@ -15,7 +27,7 @@
     }
     &__link {
         border-right:1px dotted #61656f;
-        padding-right: 15px;
+        padding-right: 10px;
         &:last-child {
            border: none;
         }
@@ -38,6 +50,9 @@
     }
     &__contacts {
         margin-top: 28px;
+    }
+    &__content {
+        padding-top: 10px;
     }
     h1 {
         color: #ffffff;
@@ -77,8 +92,8 @@
         }
         span:nth-child(2) {
             display: block;
-            width: 10px;
-            height: 10px;
+            min-width: 10px;
+            min-height: 10px;
             border-radius: 100%;
             background: #fff;
             margin: 0 10px 0 10px;
@@ -131,5 +146,8 @@
         line-height: 17.35px;
         text-align: center;
         text-transform: uppercase;
+    }
+    &__hamburger {
+        display: none;
     }
 }
