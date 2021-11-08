@@ -68,18 +68,20 @@
             margin: 0;
             height: 75px;
             max-width: unset;
-            width: 100%;
-            top: 0;
-            position: fixed;
-            background: $bg-color;
-            z-index: 15;
+            &.active {
+                width: 100%;
+                top: 0;
+                position: fixed;
+                background: $bg-color;
+                z-index: 15;
+            }
         }
         &__logo {
             width: 60px;
-            height: 100%;
+            height: auto;
             position: absolute;
-            transition: 0.5s all;
-            top: 0;
+            transition: .5s all;
+            top: 5px;
             margin-left: 1rem;
             &.active {
                 opacity: 0;
@@ -374,6 +376,11 @@
         &__textarea {
             height: 90px;
             padding-left: 20px;
+        }
+    }
+    .contacts {
+        &__phone {
+            font-size: 17px;
         }
     }
     .footer {

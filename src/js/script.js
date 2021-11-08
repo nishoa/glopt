@@ -22,3 +22,14 @@ $(document).ready(function() {
     $('.header__hamburger,.header__list,.header__logo').toggleClass('active');
   });
 });
+
+$(document).on("scroll", window, function () {
+  if ($(window).scrollTop()>200) 
+  {
+    $(".header__menu").addClass('active');
+  }
+  else
+  {
+    $(".header__menu").removeClass('active');
+  }
+  });
